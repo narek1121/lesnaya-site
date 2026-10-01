@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Леся — нетипичная ведьма | Эзотерика и Таро</title>
+<meta name="description" content="Эзотерические консультации, разборы теневой стороны и индивидуальный подбор энергетического стиля. Честно, без запугивания.">
+
+<!-- Open Graph / SEO для превью в Telegram -->
+<meta property="og:title" content="Леся — нетипичная ведьма | Эзотерика и Таро">
+<meta property="og:description" content="Эзотерические консультации, разборы теневой стороны и индивидуальный подбор энергетического стиля. Честно, без запугивания.">
+<!-- TODO: заменить на абсолютный URL (https://домен/...) после подключения домена -->
+<meta property="og:image" content="assets/about/about.webp">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<!-- Скрипт перенесен в head с атрибутом defer для параллельной загрузки -->
+<script src="js/script.js" defer></script>
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header__inner">
+    <nav class="nav" id="nav">
+      <a href="#about" class="nav__link">Обо мне</a>
+      <a href="#services" class="nav__link">Услуги</a>
+      <a href="#reviews" class="nav__link">Отзывы</a>
+      <a href="#faq" class="nav__link">Вопросы</a>
+      <a href="#contacts" class="nav__link">Контакты</a>
+    </nav>
+    <a href="https://t.me/pasalidi_od" target="_blank" rel="noopener" class="btn btn--small btn--ghost nav__cta">Написать</a>
+    <button class="burger" id="burger" aria-label="Открыть меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__stars" aria-hidden="true"></div>
+    <div class="hero__leopard hero__leopard--tl" aria-hidden="true"></div>
+    <div class="hero__leopard hero__leopard--br" aria-hidden="true"></div>
+    <div class="hero__spark" aria-hidden="true"></div>
+    <div class="container hero__inner">
+      <p class="hero__eyebrow">Мир эзотерики</p>
+      <h1 class="hero__title">ЛЕСЯ — <span>нетипичная ведьма</span> 🐈‍⬛</h1>
+      <p class="hero__subtitle">
+        Не пугаю негативом и не кормлю страхами. Работаю честно и по делу —
+        помогаю увидеть твою теневую сторону, которая управляет выборами и повторяющимися сценариями.
+      </p>
+      <div class="hero__actions">
+        <a href="https://t.me/pasalidi_od" target="_blank" rel="noopener" class="btn btn--primary">Написать в Telegram</a>
+        <a href="#services" class="btn btn--ghost">Смотреть услуги</a>
+      </div>
+    </div>
+    <a href="#about" class="hero__scroll" aria-label="Листать вниз">↓</a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about__inner">
+      <div class="about__photo">
+        <!-- Изменено на .webp -->
+        <img src="assets/about/about.webp" alt="Леся" class="about__photo-img">
+      </div>
+      <div class="about__content">
+        <p class="section-eyebrow">Обо мне</p>
+        <h2 class="section-title">Честность и глубина вместо иллюзий</h2>
+        <p class="about__text">
+          Вместо классических вопросов «что он ко мне чувствует» и «вернётся ли он» я помогаю
+          увидеть то, что действительно важно — твою теневую сторону. То, что обычно прячется,
+          но именно оно управляет выборами, отношениями и повторяющимися сценариями.
+          И тогда уже он будет переживать — вернёшься ли к нему ты 😉
+        </p>
+        <p class="about__text">
+          Год назад я ушла из образования, чтобы полностью посвятить себя этой работе и
+          помогать людям по-настоящему. Мой подход — мягкий, но прямой. Без воды, без запугивания
+          и без иллюзий.
+        </p>
+        <ul class="about__list">
+          <li>✓ В эзотерике с 2021 года</li>
+          <li>✓ Честно и по делу</li>
+          <li>✓ Мягкий, но прямой подход к каждому запросу</li>
+          <li>✓ Отливка воском, если нужно мягко наладить состояние</li>
+          <li>✓ Подбор индивидуального эзотерического имиджа по твоей энергии</li>
+        </ul>
+        <div class="about__socials">
+          <a href="https://t.me/pasalidi_od" target="_blank" rel="noopener" aria-label="Telegram">TG</a>
+          <!-- Исправлена опечатка MAX на TEL -->
+          <a href="tel:+79166512819" aria-label="Телефон">TEL</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <p class="section-eyebrow section-eyebrow--center">Услуги</p>
+      <h2 class="section-title section-title--center">Чем я могу помочь</h2>
+      <div class="services__grid">
+
+        <article class="card card--service">
+          <h3 class="card__title">Расклад на месяц</h3>
+          <p class="card__text">Актуальные тенденции и рекомендации на ближайший месяц.</p>
+          <p class="card__price">2000 ₽</p>
+          <a href="https://t.me/pasalidi_od" target="_blank" rel="noopener" class="btn btn--small btn--ghost">Заказать</a>
+        </article>
+
+        <article class="card card--service">
+          <h3 class="card__title">Расклад любой ситуации</h3>
+          <p class="card__text">Честный разбор твоего конкретного вопроса без запугивания.</p>
+          <p class="card__price">2222 ₽</p>
+          <a href="https://t.me/pasalidi_od" target="_blank" rel="noopener" class="btn btn--small btn--ghost">Заказать</a>
+        </article>
+
+        <article class="card card--service">
+          <h3 class="card__title">Расклад на отношения</h3>
+          <p class="card__text">Что происходит между вами и как лучше поступить.</p>
+          <p class="card__price">2555 ₽</p>
+          <a href="https://t.me/pasalidi_od" target="_blank" rel="noopener" class="btn btn--small btn--ghost">Заказать</a>
+        </article>
+
+        <article class="card card--service">
+          <h3 class="card__title">Расклад «Моё полугодие»</h3>
+          <p class="card__text">Разбор на ближайшие 6 месяцев: чего ждать и на что обратить внимание.</p>
+          <p class="card__price">2500 ₽</p>
+          <a href="https://t.me/pasalidi_od" target="_blank" rel="noopener" class="btn btn--small btn--ghost">Заказать</a>
+        </article>
+
+        <article class="card card--service">
+          <h3 class="card__title">Расклад годовой</h3>
+          <p class="card__text">Подробный прогноз на 12 месяцев по ключевым сферам жизни.</p>
+          <p class="card__price">4444 ₽</p>
+          <a href="https://t.me/pasalidi_od" target="_blank" rel="noopener" class="btn btn--small btn--ghost">Заказать</a>
+        </article>
+
+        <article class="card card--service">
+          <h3 class="card__title">Просмотр вашего поля, состояние чакр</h3>
+          <p class="card__text">Диагностика энергетики и точек напряжения.</p>
+          <p class="card__price">3000 ₽</p>
+          <a href="https://t.me/pasalidi_od" target="_blank" rel="noopener" class="btn btn--small btn--ghost">Заказать</a>
+        </article>
+
+        <article class="card card--service">
+          <h3 class="card__title">Матрица судьбы</h3>
+          <p class="card__text">Разбор твоего кода рождения: сильные стороны, задачи и ресурсы.</p>
+          <p class="card__price">4444 ₽</p>
+          <a href="https://t.me/pasalidi_od" target="_blank" rel="noopener" class="btn btn--small btn--ghost">Заказать</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <p class="section-eyebrow section-eyebrow--center">Отзывы</p>
+      <h2 class="section-title section-title--center">Что говорят клиенты</h2>
+      <div class="reviews__carousel">
+        <button class="carousel__btn carousel__btn--prev" id="reviewsPrev" aria-label="Предыдущий отзыв">‹</button>
+        <div class="reviews__track" id="reviewsTrack">
+          <!-- Изображения изменены на .webp -->
+          <article class="card card--review"><img class="card__screenshot" src="assets/reviews/review-1.webp" alt="Отзыв клиента"></article>
+          <article class="card card--review"><img class="card__screenshot" src="assets/reviews/review-2.webp" alt="Отзыв клиента"></article>
+          <article class="card card--review"><img class="card__screenshot" src="assets/reviews/review-3.webp" alt="Отзыв клиента"></article>
+          <article class="card card--review"><img class="card__screenshot" src="assets/reviews/review-4.webp" alt="Отзыв клиента"></article>
+          <article class="card card--review"><img class="card__screenshot" src="assets/reviews/review-5.webp" alt="Отзыв клиента"></article>
+          <article class="card card--review"><img class="card__screenshot" src="assets/reviews/review-6.webp" alt="Отзыв клиента"></article>
+          <article class="card card--review"><img class="card__screenshot" src="assets/reviews/review-7.webp" alt="Отзыв клиента"></article>
+        </div>
+        <button class="carousel__btn carousel__btn--next" id="reviewsNext" aria-label="Следующий отзыв">›</button>
+      </div>
+      <div class="reviews__dots" id="reviewsDots"></div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <p class="section-eyebrow section-eyebrow--center">Вопросы</p>
+      <h2 class="section-title section-title--center">Часто задаваемые вопросы</h2>
+      <div class="accordion">
+
+        <div class="accordion__item">
+          <button class="accordion__header">Нужно ли мне разбираться в эзотерике? <span class="accordion__icon">+</span></button>
+          <div class="accordion__body"><p>Нет, не нужно. Я объясняю всё простыми словами, без сложных терминов и лишней теории.</p></div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__header">Как проходит консультация? <span class="accordion__icon">+</span></button>
+          <div class="accordion__body"><p>Ты описываешь свою ситуацию, я подбираю вопросы под неё, и мы обсуждаем стоимость. После этого жди от меня голосовое сообщение с решением твоей ситуации.</p></div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__header">В каком виде я получу результат? <span class="accordion__icon">+</span></button>
+          <div class="accordion__body"><p>В зависимости от услуги — текстовый разбор, голосовые сообщения или созвон. Формат согласуем заранее.</p></div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__header">Сколько времени занимает работа? <span class="accordion__icon">+</span></button>
+          <div class="accordion__body"><p>Я никогда не делаю день в день. Записываю твою ситуацию, но отдаю решение достаточно быстро — за 2–3 дня.</p></div>
+        </div>
+
+        <div class="accordion__item">
+          <button class="accordion__header">Как оплатить услугу? <span class="accordion__icon">+</span></button>
+          <div class="accordion__body"><p>Пишешь в Telegram, обсуждаем запрос и способ оплаты, удобный именно тебе.</p></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section class="contacts" id="contacts">
+    <div class="container contacts__inner">
+      <div class="contacts__info">
+        <p class="section-eyebrow">Контакты</p>
+        <h2 class="section-title">Если тебе близка честность и глубина — тебе ко мне 🐈‍⬛</h2>
+        <ul class="contacts__list">
+          <li><span>Telegram:</span> <a href="https://t.me/pasalidi_od" target="_blank" rel="noopener">@pasalidi_od</a></li>
+          <li><span>Телефон:</span> <a href="tel:+79166512819">+7 916 651-28-19</a></li>
+        </ul>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <p class="section-eyebrow">Написать мне</p>
+        <input type="text" name="name" placeholder="Как тебя зовут?" required>
+        <textarea name="message" rows="4" placeholder="Твой вопрос или запрос" required></textarea>
+        <button type="submit" class="btn btn--primary">Отправить в Telegram</button>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <p>© 2026 Леся. Все права защищены.</p>
+    <div class="footer__socials">
+      <a href="https://t.me/pasalidi_od" target="_blank" rel="noopener">Telegram</a>
+      <a href="tel:+79166512819">Телефон</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
